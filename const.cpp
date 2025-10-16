@@ -5,11 +5,16 @@
 #define PI 3.14 // Assign PI constant value
 #define CIRCUM(A) (PI*A) // Calculate Circumference 
 #define AREA(A) (PI*A/4) // Calculate Area
+
 using namespace std;
+
+//const variables
+const float PI_VALUE = 3.14;
+
 int main(){
 
     // create variables
-    
+
     float DIAMETER_VALUE ;
 
     cout << "Enter value of diameter : " << endl;
